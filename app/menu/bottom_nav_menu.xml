@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/primerFragment"
+        android:icon="@drawable/baseline_time_to_leave_24"
+        android:title="@string/fragment_1" />
+    <item
+        android:id="@+id/segonFragment"
+        android:icon="@drawable/baseline_pedal_bike_24"
+        android:title="@string/fragment_2" />
+    <item
+        android:id="@+id/tercerFragment"
+        android:icon="@drawable/baseline_sports_motorsports_24"
+        android:title="@string/fragment_3" />
+</menu>

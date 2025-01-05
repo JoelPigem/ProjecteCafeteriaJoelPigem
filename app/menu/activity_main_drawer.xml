@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/primerFragment"
+            android:icon="@drawable/baseline_time_to_leave_24"
+            android:title="@string/fragment_1" />
+        <item
+            android:id="@+id/subMenuGroup"
+            android:icon="@drawable/baseline_arrow_drop_down_24"
+            android:title="@string/fragments_2_i_3">
+            <menu>
+                <item
+                    android:id="@+id/segonFragment"
+                    android:icon="@drawable/baseline_pedal_bike_24"
+                    android:title="@string/fragment_2" />
+                <item
+                    android:id="@+id/tercerFragment"
+                    android:icon="@drawable/baseline_sports_motorsports_24"
+                    android:title="@string/fragment_3" />
+            </menu>
+        </item>
+    </group>
+
+    <group
+        android:id="@+id/third_section"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/settingsFragment"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/baseline_transit_enterexit_24"
+            android:title="@string/exit" />
+    </group>
+
+</menu>
